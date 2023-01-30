@@ -1,0 +1,44 @@
+<html>
+    <script>
+        var a = 50;
+        var b = 40;
+
+        if (a > b)
+        {
+            console.log("a maior do que b");
+
+        } else if (a < b) {
+            console.log("a menor que b");
+        } else {
+            console.log("a é igual a b");
+        }
+
+        console.log("sempre executar")
+
+        var c = 40;
+        var d = 50;
+        if (c >= d) {
+            console.log("c é maior ou igual a d");
+        }
+        if (c <= d) {
+            console.log("c é menor ou igual a d");
+        }
+
+        var f = 10;
+        var g = 10;
+        if (f == g) {
+            console.log("f é igual a g");
+        }
+//com 3 iguais vê o tipo do dado e não dá o mesmo resultado
+        var f = 10;
+        var g = "10";
+        if (f == g) {
+            console.log("f é igual a g");
+        }
+//com 2 iguais ele reconhece igual mesmo sendo string
+        if (f !== g) {
+            console.log("f é diferente de g");
+        }
+        //no caso da diferença podem ser 2 iguais ou 1 igual
+   </script>
+</html>
